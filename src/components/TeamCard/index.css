@@ -10,11 +10,17 @@ li{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 450px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 .team-logo{
     height: 80px;
+    margin-right: 5px;
 }
 .team-name{
     color: #ffffff;
     font-size: 18px;
+    width:230px;
+    height: 60px;
 }
