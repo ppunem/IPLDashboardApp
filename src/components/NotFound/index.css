@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.alignment{
+    background-image: url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:576px){
+    .alignment{
+        background-image:url("https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png");
+    }
+}
+h1{
+    color: #ffffff;
+    font-family: "bree serif";
+    font-size: 30px;
+    font-weight: bold;
+}

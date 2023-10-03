@@ -1,0 +1,67 @@
+/* Write your CSS here */
+*{
+    font-family: "bree serif";
+    color: #ffffff;
+}
+
+.latest-match-card{
+    width: 90%;
+    padding: 15px;
+    background-color: #0f172a;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.team-name{
+    font-size: 25px;
+    font-weight: 800;
+}
+.Date{
+    font-size: 20px;
+    font-weight: 600;
+}
+.Venue{
+    font-size: 16px;
+}
+.Result{
+    font-size: 16px;
+}
+.team-logo{
+    height: 65px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.innings-head{
+    font-size: 16px;
+}
+.innings{
+    font-size: 13px;
+}
+.man-head{
+    font-size: 18px;
+}
+.man{
+    font-size: 13px;
+}
+.horizontal-line{
+    border: none;
+}
+@media screen and (max-width:576px){
+    .horizontal-line{
+        border: 2px solid grey;
+        width: 100%;
+    }
+    .small-container{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,20 @@
+/* Write your CSS here */
+*{
+    font-family: "bree serif";
+}
+li{
+    border:3px solid #ffffff;
+    border-radius: 14px;
+    background-color: #ffffff33;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.team-logo{
+    height: 80px;
+}
+.team-name{
+    color: #ffffff;
+    font-size: 18px;
+}

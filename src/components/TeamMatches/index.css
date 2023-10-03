@@ -1,0 +1,51 @@
+/* Write your CSS here */
+*{
+    font-family: "bree serif";
+}
+.rcb{
+    background-image: linear-gradient(to top,#1e293b,#a4261d);
+}
+.kkr{
+    background-image: linear-gradient(to top,#1e293b,#5755a7);
+}
+.kxp{
+    background-image: linear-gradient(to top,#1e293b,#d91c1f);
+}
+.csk{
+    background-image: linear-gradient(to top,#1e293b,#f7db00);
+}
+.rr{
+    background-image: linear-gradient(to top,#1e293b,#da237b);
+}
+.mi{
+    background-image: linear-gradient(to top,#1e293b,#13418b);
+}
+.srh{
+    background-image: linear-gradient(to top,#1e293b,#f26d22);
+}
+.dc{
+    background-image: linear-gradient(to top,#1e293b,#4f5db0);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    min-height: 100vh;
+}
+.banner-image{
+    height: 80px;
+    margin: 5px;
+    width: 80%;
+}
+.recent-match-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+.latest-matches-heading{
+    color: #ffffff;
+    font-size: 13px;
+}
