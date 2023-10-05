@@ -37,28 +37,22 @@ class TeamMatches extends Component{
         switch(id){
             case 'RCB':
               return 'rcb'
-              break
             case 'KKR':
               return 'kkr'
-              break
             case 'CSK':
               return 'csk'
-              break
             case 'MI':
               return 'mi'
-              break
             case 'SRH':
               return 'srh'
-              break
             case 'KXP':
               return 'kxp'
-              break
             case 'RR':
               return 'rr'
-              break
             case 'DC':
               return 'dc'
-              break
+            default:
+                return null
         }
     }
 
