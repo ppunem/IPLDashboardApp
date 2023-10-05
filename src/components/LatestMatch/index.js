@@ -21,7 +21,7 @@ const LatestMatch =props=>{
         <div className="latest-match-card">
         <div className="small-container">
           <div className="first">
-            <h1 className="team-name">{updatedLatestMatchDetails.competingTeam}</h1>
+            <p className="team-name">{updatedLatestMatchDetails.competingTeam}</p>
             <p className="Date">{updatedLatestMatchDetails.date}</p>
             <p className="Venue">{updatedLatestMatchDetails.venue}</p>
             <p className="Result">{updatedLatestMatchDetails.result}</p>
